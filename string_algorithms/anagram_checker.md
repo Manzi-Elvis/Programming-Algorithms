@@ -58,13 +58,19 @@ if length(str1) != length(str2):
 countMap = empty map
 
 for char in str1:
+
     countMap[char] = countMap.get(char, 0) + 1
 
 for char in str2:
+
     if char not in countMap:
+    
         return false
+
     countMap[char] -= 1
+
     if countMap[char] < 0:
+    
         return false
 
 return true
