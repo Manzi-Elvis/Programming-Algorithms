@@ -46,3 +46,48 @@ while left < right:
     right--
 
 return true
+
+##  Exercises
+
+Let’s see how well you understood the logic behind palindromes.  
+Try these challenges — don’t rush, and remember: the goal isn’t to finish fast, it’s to understand *why* your solution works.
+
+---
+
+**1. The Basic Check**  
+Write a function that checks if a given string is a palindrome *without* using any built-in reverse functions (like `[::-1]` in Python).  
+*Hint:* Use two pointers, one at the start and one at the end.
+
+---
+
+**2. Ignore the Noise**  
+Update your palindrome checker so it ignores punctuation, spaces, and letter casing.  
+Example:  
+`"A man, a plan, a canal: Panama"` → should return `True`
+
+---
+
+**3. Number Palindrome**  
+Modify your function to handle numbers too.  
+Example:  
+`12321` → `True`  
+`120021` → `False`
+
+---
+
+**4. Find All Palindromes in a List**  
+Given a list of words, return only the palindromes.  
+Example:  
+`["racecar", "python", "madam", "hello", "level"]` → `["racecar", "madam", "level"]`
+
+---
+
+**5. Longest Palindromic Substring (Challenge Mode 🧠)**  
+Given a string, find the longest substring that is a palindrome.  
+Example:  
+`"babad"` → `"bab"` or `"aba"`  
+This one’s a classic interview question — if you nail it, you’re definitely leveling up.
+
+---
+
+ *Tip:* Once you’re done, try timing your solutions on long strings. Performance matters more than you think.
