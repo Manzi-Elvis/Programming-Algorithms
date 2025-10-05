@@ -52,16 +52,16 @@ If one bag has an extra “t” or missing “e,” it’s game over.
 
 ## Pseudocode  
 
-if length(str1) != length(str2):
+ if length(str1) != length(str2):
     return false
 
-countMap = empty map
+ countMap = empty map
 
-for char in str1:
+ for char in str1:
 
     countMap[char] = countMap.get(char, 0) + 1
 
-for char in str2:
+ for char in str2:
 
     if char not in countMap:
     
@@ -70,10 +70,10 @@ for char in str2:
     countMap[char] -= 1
 
     if countMap[char] < 0:
-    
+
         return false
 
-return true
+ return true
 
 
 ---
