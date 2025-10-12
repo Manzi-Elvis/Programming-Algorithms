@@ -51,7 +51,7 @@ If one bag has an extra “t” or missing “e,” it’s game over.
 ---
 
 ## Pseudocode  
-
+```
    if length(str1) != length(str2):
     return false
    else:
@@ -74,7 +74,7 @@ If one bag has an extra “t” or missing “e,” it’s game over.
         return false
 
  return true
-
+```
 
 ---
 

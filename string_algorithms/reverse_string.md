@@ -47,8 +47,8 @@ Each method teaches you something different about how data flows in a program.
 ## Pseudocode 
 ``` 
   function reverseString(str):
-  reversed = ""
-  for i from length(str) - 1 down to 0:
+   reversed = ""
+   for i from length(str) - 1 down to 0:
     reversed = reversed + str[i]
   return reversed
 ```

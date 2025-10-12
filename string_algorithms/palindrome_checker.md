@@ -38,7 +38,8 @@ Think of it like closing a zipper — each tooth (character) has to match perfec
 
 ---
 
-## Pseudocode  
+## Pseudocode
+```  
 while left < right:
     if str[left] != str[right]:
         return false
@@ -46,6 +47,7 @@ while left < right:
     right--
 
 return true
+```
 
 ##  Exercises
 
