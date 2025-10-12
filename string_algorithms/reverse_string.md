@@ -44,18 +44,19 @@ Each method teaches you something different about how data flows in a program.
 
 ---
 
-## Pseudocode  
+## Pseudocode 
+``` 
   function reverseString(str):
   reversed = ""
   for i from length(str) - 1 down to 0:
     reversed = reversed + str[i]
   return reversed
-
+```
 
 **Or, using recursion:**
 ```
   function reverseString(str):
-   if length(str) <= 1:`
+   if length(str) <= 1:
      return str
   return reverseString(str[1:]) + str[0]
 ```
