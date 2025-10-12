@@ -53,11 +53,12 @@ Each method teaches you something different about how data flows in a program.
 
 
 **Or, using recursion:**
- ` function reverseString(str):`
-   `if length(str) <= 1:`
-     `return str`
-  `return reverseString(str[1:]) + str[0]`
-
+```
+  function reverseString(str):
+   if length(str) <= 1:`
+     return str
+  return reverseString(str[1:]) + str[0]
+```
 ---
 
 ## Try It Yourself  
