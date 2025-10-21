@@ -36,7 +36,7 @@ Let’s sort `[5, 3, 8, 1, 2]` in ascending order:
 
 ---
 
-## ⏱ Complexity Analysis
+##  Complexity Analysis
 
 | Case    | Time Complexity |
 |---------|-----------------|
@@ -61,7 +61,7 @@ def selection_sort(arr):
                 min_index = j
         arr[i], arr[min_index] = arr[min_index], arr[i]
     return arr
-
+```
 # Example
 nums = [5, 3, 8, 1, 2]
 print("Sorted:", selection_sort(nums))
