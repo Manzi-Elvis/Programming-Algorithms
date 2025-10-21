@@ -63,9 +63,10 @@ def selection_sort(arr):
     return arr
 ```
 # Example
+```
 nums = [5, 3, 8, 1, 2]
 print("Sorted:", selection_sort(nums))
-
+```
 
 ##  Use Cases
 - Good for small datasets or teaching
@@ -77,5 +78,5 @@ print("Sorted:", selection_sort(nums))
 1. Implement Selection Sort in descending order.
 2. Modify it to return both the sorted list and the number of swaps made.
 3. Sort a list of strings alphabetically using Selection Sort.
-4. Trace the algorithm for ***  [9, 1, 4, 3, 7] *** — show steps.
-5. Compare the number of swaps between Selection Sort and Bubble Sort for [4, 3, 2, 1]
+4. Trace the algorithm for `  [9, 1, 4, 3, 7] ` — show steps.
+5. Compare the number of swaps between Selection Sort and Bubble Sort for ` [4, 3, 2, 1] `
