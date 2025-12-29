@@ -47,14 +47,14 @@ Now let’s search for **11** instead 👇
 
 Middle = 7
 
-- `11 > 7` → ignore left half ❌
+- `11 > 7` → ignore left half 
 
 ### Step 2
 
 Search in: [9, 11, 13]
 Middle = 11
 
-🎉 Found!
+ Found!
 
 ---
 
