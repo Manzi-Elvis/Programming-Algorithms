@@ -54,3 +54,37 @@ Middle = 7
 Search in: [9, 11, 13]
 Middle = 11
 
+🎉 Found!
+
+---
+
+### Worst Case Example (Not Found)
+Searching for **4**:
+
+1. Middle = 7 → go left
+2. Middle = 3 → go right
+3. Middle = 5 → go left
+4. Search space empty → Not found
+
+Binary Search never panics.  
+It just keeps cutting
+
+---
+
+## Visual Intuition 
+Think of guessing a number between **1 and 100**:
+
+- Guess 50 → too high?
+- Guess 25 → too low?
+- Guess 37 → closer?
+
+That’s Binary Search in real life.
+
+---
+
+## Iterative Approach (Recommended)
+
+### Pseudocode
+```
+
+
