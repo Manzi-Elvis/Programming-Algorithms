@@ -86,5 +86,12 @@ That’s Binary Search in real life.
 
 ### Pseudocode
 ```
+function binarySearch(arr, target):
+left = 0
+right = length(arr) - 1
 
+while left <= right:
+mid = (left + right) // 2
+
+```
 
