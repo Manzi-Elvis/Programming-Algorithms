@@ -30,3 +30,27 @@ No exceptions.
 ## How It Works (Step-by-Step)
 
 Let’s search for **7** in this sorted array:
+[1, 3, 5, 7, 9, 11, 13]
+
+
+### Step 1: Pick the Middle
+
+Middle = 7
+
+Boom! Found it instantly.
+
+---
+
+Now let’s search for **11** instead 👇
+
+### Step 1
+
+Middle = 7
+
+- `11 > 7` → ignore left half ❌
+
+### Step 2
+
+Search in: [9, 11, 13]
+Middle = 11
+
